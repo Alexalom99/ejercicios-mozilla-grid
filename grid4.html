@@ -16,6 +16,12 @@
       margin: 0;
     }
 
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 1rem;
+    }
+
     .card {
       display: grid;
       grid-template-rows: 200px min-content;
@@ -31,6 +37,11 @@
       margin: 0;
       padding: 0;
       list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 85%;
+      margin: 0 auto;
     }
 
     .tags>* {
@@ -40,6 +51,8 @@
       border-radius: 0.2em;
       font-size: 80%;
       margin: 5px;
+      flex: 0 0 auto;
+      
     }
   </style>
 
